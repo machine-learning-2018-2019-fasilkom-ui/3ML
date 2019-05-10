@@ -24,5 +24,4 @@ for numSegments in (250, 500, 1000):
 	plt.axis("off")
  
 # show the plots
-print ("Result ...")
 plt.show()
