@@ -11,7 +11,7 @@ image = img_as_float(io.imread('/Users/rizki/Documents/ML/pleiades/PHR1A_PMS_201
  
 # loop over the number of segments
 print ("Segmentation Process ...")
-for numSegments in (250, 500, 1000):
+for numSegments in (600, 900, 1000):
 	# apply SLIC and extract (approximately) the supplied number
 	# of segments
 	segments = slic(image, n_segments = numSegments, sigma = 5, slic_zero = True,
